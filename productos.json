@@ -1,26 +1,28 @@
 {
   "productos": [
     {
-      "sku": "134437",
-      "nombre": "Azulejo Blanco Brillante",
+      "sku": "168146",
+      "nombre": "PISO SOUL AMANPURI",
       "tamaño": "60x60",
       "color": "#FFFFFF",
       "rendimiento": 1.44,
       "imagen": "img/azulejo-blanco.jpg"
     },
     {
-      "sku": "P002",
-      "nombre": "Azulejo Negro Mate",
-      "tamaño": "30x30",
-      "color": "#000000",
-      "rendimiento": 0.36
+      "sku": "137440",
+      "nombre": "PISO ST VINCENT",
+      "tamaño": "45x90",
+      "color": "#ffffff",
+      "rendimiento": 1.21,
+      "imagen":"img/prueba"
     },
     {
-      "sku": "P003",
-      "nombre": "Mármol Beige",
-      "tamaño": "120x60",
+      "sku": "115675",
+      "nombre": "PISO MONTPELLIER",
+      "tamaño": "40x60",
       "color": "#F5F5DC",
-      "rendimiento": 2.88
+      "rendimiento": 1.44,
+      "imagen":"img/prueba2"
     }
   ]
 }
