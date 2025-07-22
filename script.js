@@ -17,7 +17,10 @@ async function cargarProductos() {
         const data = await response.json();
         productos = data.productos;
         mostrarProductosDisponibles();
-    } 
+    } catch (error) {
+        console.error('Error:', error);
+        mostrarError(`Error al cargar productos: ${error.message}`);
+    }
 }
 
 // Mostrar productos disponibles
