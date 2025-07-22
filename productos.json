@@ -1,0 +1,26 @@
+{
+  "productos": [
+    {
+      "sku": "134437",
+      "nombre": "Azulejo Blanco Brillante",
+      "tamaño": "60x60",
+      "color": "#FFFFFF",
+      "rendimiento": 1.44,
+      "imagen": "img/azulejo-blanco.jpg"
+    },
+    {
+      "sku": "P002",
+      "nombre": "Azulejo Negro Mate",
+      "tamaño": "30x30",
+      "color": "#000000",
+      "rendimiento": 0.36
+    },
+    {
+      "sku": "P003",
+      "nombre": "Mármol Beige",
+      "tamaño": "120x60",
+      "color": "#F5F5DC",
+      "rendimiento": 2.88
+    }
+  ]
+}
