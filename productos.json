@@ -30,7 +30,7 @@
       "tamaño": "60x60",
       "color": "white",
       "rendimiento": 1.44,
-      "imagen": "",
+      "imagen": "img/prueba2",
     },
     {
       "sku":"205543",
@@ -38,23 +38,23 @@
       "tamaño": "60x60",
       "color": "gray",
       "rendimiento": 1.44,
-      "imagen": "",
+      "imagen": "img/prueba2",
     },
     {
       "sku":"225772",
       "nombre": "Piso Arrebol NOCE",
       "tamaño": "20x60",
-      "color": "Brown",
+      "color": "brown",
       "rendimiento": 1.2,
-      "imagen": "",
+      "imagen": "img/prueba2",
     },
     {
       "sku":"137434",
       "nombre": "Piso Rainforest Nogal",
       "tamaño": "20x60",
-      "color": "Brown",
+      "color": "brown",
       "rendimiento": 1.2,
-      "imagen": "",
+      "imagen": "img/prueba2",
     },
     {
       "sku":"137417",
@@ -70,7 +70,7 @@
       "tamaño": "31x61",
       "color": "White",
       "rendimiento": 1.51,
-      "imagen": "",
+      "imagen": "img/prueba2",
     },
     {
       "sku":"205548",
@@ -78,7 +78,7 @@
       "tamaño": "60x60",
       "color": "#C9A86F",
       "rendimiento": 1.44,
-      "imagen": "",
+      "imagen": "img/prueba2",
     },
     {
       "sku":"225779",
@@ -86,7 +86,7 @@
       "tamaño": "60x60",
       "color": 1.44,
       "rendimiento": "White",
-      "imagen": "",
+      "imagen": "img/prueba2",
     },
     {
       "sku":"115784",
@@ -94,7 +94,7 @@
       "tamaño": "25x50",
       "color": "Gray",
       "rendimiento": 1.5,
-      "imagen": "",
+      "imagen": "img/prueba2",
     },
     {
       "sku":"115776",
@@ -102,7 +102,7 @@
       "tamaño": "50x50",
       "color": "Gray",
       "rendimiento": 1.75,
-      "imagen": "",
+      "imagen": "img/prueba2",
     },
     {
       "sku":"144123",
@@ -110,7 +110,7 @@
       "tamaño": "31x61",
       "color": "White",
       "rendimiento": 1.51,
-      "imagen": "",
+      "imagen": "img/prueba2",
     },
     {
       "sku":"225780",
@@ -118,7 +118,7 @@
       "tamaño": "60x60",
       "color": "#FFFFBF",
       "rendimiento": 1.44,
-      "imagen": "",
+      "imagen": "img/prueba2",
     },
     {
       "sku":"225588",
@@ -126,7 +126,7 @@
       "tamaño": "25x50",
       "color": "White",
       "rendimiento": 1.5,
-      "imagen": "",
+      "imagen": "img/prueba2",
     },
     {
       "sku":"115868",
@@ -134,7 +134,7 @@
       "tamaño": "60x60",
       "color": "#F0F0F0",
       "rendimiento": 1.44,
-      "imagen": "",
+      "imagen": "img/prueba2",
     },
     {
       "sku":"137404",
@@ -142,7 +142,7 @@
       "tamaño": "60x60",
       "color": "Gray",
       "rendimiento": 1.44,
-      "imagen": "",
+      "imagen": "img/prueba2",
     },
     {
       "sku":"144125",
@@ -150,7 +150,7 @@
       "tamaño": "60x60",
       "color": "white",
       "rendimiento": 1.75,
-      "imagen": "",
+      "imagen": "img/prueba2",
     },
     {
       "sku":"168147",
@@ -158,7 +158,7 @@
       "tamaño": "60x60",
       "color": "#272f38",
       "rendimiento": 1.44,
-      "imagen": "",
+      "imagen": "img/prueba2",
     },
     {
       "sku":"115793",
@@ -166,7 +166,7 @@
       "tamaño": "60x60",
       "color": "white",
       "rendimiento": 1.44,
-      "imagen": "",
+      "imagen": "img/prueba2",
     },
     {
       "sku":"168150",
@@ -174,7 +174,7 @@
       "tamaño": "40x60",
       "color": "gray",
       "rendimiento": 1.44,
-      "imagen": "",
+      "imagen": "img/prueba2",
     },
     {
       "sku":"225701",
@@ -182,6 +182,6 @@
       "tamaño": "44x89",
       "color": "White",
       "rendimiento": 1.17,
-      "imagen": "",
+      "imagen": "img/prueba2",
     }]
 }
