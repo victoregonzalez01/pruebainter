@@ -25,7 +25,7 @@
       "imagen":"img/prueba2"
     },
     {
-      "sku":"",
+      "sku":"205546",
       "nombre": "Piso Agape",
       "tamaño": "60x60",
       "color": "none",
@@ -33,7 +33,7 @@
       "imagen": "",
     },
     {
-      "sku":"",
+      "sku":"150284",
       "nombre": "Piso Stella",
       "tamaño": "60x60",
       "color": "Grigio",
@@ -41,7 +41,7 @@
       "imagen": "",
     },
     {
-      "sku":"",
+      "sku":"225772",
       "nombre": "Piso Arrebol",
       "tamaño": "20x60",
       "color": "Noce",
@@ -49,7 +49,7 @@
       "imagen": "",
     },
     {
-      "sku":"",
+      "sku":"137434",
       "nombre": "Piso Rainforest",
       "tamaño": "20x60",
       "color": "Nogal",
@@ -57,7 +57,7 @@
       "imagen": "",
     },
     {
-      "sku":"",
+      "sku":"137417",
       "nombre": "Piso Lugano",
       "tamaño": "15x50",
       "color": "Beige",
@@ -65,7 +65,7 @@
       "imagen": "",
     },
     {
-      "sku":"",
+      "sku":"205552",
       "nombre": "Muro Stella",
       "tamaño": "31x61",
       "color": "White",
@@ -73,7 +73,7 @@
       "imagen": "",
     },
     {
-      "sku":"",
+      "sku":"205548",
       "nombre": "Piso Catania",
       "tamaño": "60x60",
       "color": "Avorio",
@@ -81,7 +81,7 @@
       "imagen": "",
     },
     {
-      "sku":"",
+      "sku":"225779",
       "nombre": "Piso Alhena",
       "tamaño": "60x60",
       "color": "1.44",
@@ -97,7 +97,7 @@
       "imagen": "",
     },
     {
-      "sku":"",
+      "sku":"115784",
       "nombre": "Piso Vesubio",
       "tamaño": "50x50",
       "color": "Pompeia Gray",
@@ -105,7 +105,7 @@
       "imagen": "",
     },
     {
-      "sku":"",
+      "sku":"144123",
       "nombre": "Muro Kirigami",
       "tamaño": "31x61",
       "color": "White",
@@ -113,7 +113,7 @@
       "imagen": "",
     },
     {
-      "sku":"",
+      "sku":"225780",
       "nombre": "Piso Alhena",
       "tamaño": "60x60",
       "color": "Crema",
@@ -121,7 +121,7 @@
       "imagen": "",
     },
     {
-      "sku":"",
+      "sku":"225588",
       "nombre": "Muro Rilievi",
       "tamaño": "25x50",
       "color": "White",
@@ -129,7 +129,7 @@
       "imagen": "",
     },
     {
-      "sku":"",
+      "sku":"115868",
       "nombre": "Piso Marble Colección",
       "tamaño": "60x60",
       "color": "Statuario",
@@ -137,7 +137,7 @@
       "imagen": "",
     },
     {
-      "sku":"",
+      "sku":"137404",
       "nombre": "Piso Brunei",
       "tamaño": "60x60",
       "color": "Gray",
@@ -145,7 +145,7 @@
       "imagen": "",
     },
     {
-      "sku":"",
+      "sku":"144125",
       "nombre": "Piso Janeiro",
       "tamaño": "60x60",
       "color": "Copacabana white",
@@ -153,7 +153,7 @@
       "imagen": "",
     },
     {
-      "sku":"",
+      "sku":"168147",
       "nombre": "Piso Soul",
       "tamaño": "60x60",
       "color": "Royal Nero",
@@ -161,7 +161,7 @@
       "imagen": "",
     },
     {
-      "sku":"",
+      "sku":"115793",
       "nombre": "Piso crema Marfil",
       "tamaño": "60x60",
       "color": "Claro",
@@ -169,7 +169,7 @@
       "imagen": "",
     },
     {
-      "sku":"",
+      "sku":"168150",
       "nombre": "Piso Tundra",
       "tamaño": "40x60",
       "color": "Thunder gray",
@@ -177,7 +177,7 @@
       "imagen": "",
     },
     {
-      "sku":"",
+      "sku":"225701",
       "nombre": "Piso Starlyn",
       "tamaño": "44x89",
       "color": "White",
