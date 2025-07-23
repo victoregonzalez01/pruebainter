@@ -29,7 +29,7 @@
       "nombre": "Piso Agape",
       "tamaño": "60x60",
       "color": "none",
-      "rendimiento": "1.44",
+      "rendimiento": 1.44,
       "imagen": "",
     },
     {
@@ -37,7 +37,7 @@
       "nombre": "Piso Stella",
       "tamaño": "60x60",
       "color": "Grigio",
-      "rendimiento": "1.44",
+      "rendimiento": 1.44,
       "imagen": "",
     },
     {
@@ -45,7 +45,7 @@
       "nombre": "Piso Arrebol",
       "tamaño": "20x60",
       "color": "Noce",
-      "rendimiento": "1.2",
+      "rendimiento": 1.2,
       "imagen": "",
     },
     {
@@ -53,7 +53,7 @@
       "nombre": "Piso Rainforest",
       "tamaño": "20x60",
       "color": "Nogal",
-      "rendimiento": "1.2",
+      "rendimiento": 1.2,
       "imagen": "",
     },
     {
@@ -61,7 +61,7 @@
       "nombre": "Piso Lugano",
       "tamaño": "15x50",
       "color": "Beige",
-      "rendimiento": "0.98",
+      "rendimiento": 0.98,
       "imagen": "",
     },
     {
@@ -69,7 +69,7 @@
       "nombre": "Muro Stella",
       "tamaño": "31x61",
       "color": "White",
-      "rendimiento": "1.51",
+      "rendimiento": 1.51,
       "imagen": "",
     },
     {
@@ -77,14 +77,14 @@
       "nombre": "Piso Catania",
       "tamaño": "60x60",
       "color": "Avorio",
-      "rendimiento": "1.44",
+      "rendimiento": 1.44,
       "imagen": "",
     },
     {
       "sku":"225779",
       "nombre": "Piso Alhena",
       "tamaño": "60x60",
-      "color": "1.44",
+      "color": 1.44,
       "rendimiento": "White",
       "imagen": "",
     },
@@ -93,7 +93,7 @@
       "nombre": "Muro Vesubio",
       "tamaño": "25x50",
       "color": "Pompeia Gray",
-      "rendimiento": "1.5",
+      "rendimiento": 1.5,
       "imagen": "",
     },
     {
@@ -101,7 +101,7 @@
       "nombre": "Piso Vesubio",
       "tamaño": "50x50",
       "color": "Pompeia Gray",
-      "rendimiento": "1.75",
+      "rendimiento": 1.75,
       "imagen": "",
     },
     {
@@ -109,7 +109,7 @@
       "nombre": "Muro Kirigami",
       "tamaño": "31x61",
       "color": "White",
-      "rendimiento": "1.51",
+      "rendimiento": 1.51,
       "imagen": "",
     },
     {
@@ -117,7 +117,7 @@
       "nombre": "Piso Alhena",
       "tamaño": "60x60",
       "color": "Crema",
-      "rendimiento": "1.44",
+      "rendimiento": 1.44,
       "imagen": "",
     },
     {
@@ -125,7 +125,7 @@
       "nombre": "Muro Rilievi",
       "tamaño": "25x50",
       "color": "White",
-      "rendimiento": "1.5",
+      "rendimiento": 1.5,
       "imagen": "",
     },
     {
@@ -133,7 +133,7 @@
       "nombre": "Piso Marble Colección",
       "tamaño": "60x60",
       "color": "Statuario",
-      "rendimiento": "1.44",
+      "rendimiento": 1.44,
       "imagen": "",
     },
     {
@@ -141,7 +141,7 @@
       "nombre": "Piso Brunei",
       "tamaño": "60x60",
       "color": "Gray",
-      "rendimiento": "1.44",
+      "rendimiento": 1.44,
       "imagen": "",
     },
     {
@@ -149,7 +149,7 @@
       "nombre": "Piso Janeiro",
       "tamaño": "60x60",
       "color": "Copacabana white",
-      "rendimiento": "1.75",
+      "rendimiento": 1.75,
       "imagen": "",
     },
     {
@@ -157,7 +157,7 @@
       "nombre": "Piso Soul",
       "tamaño": "60x60",
       "color": "Royal Nero",
-      "rendimiento": "1.44",
+      "rendimiento": 1.44,
       "imagen": "",
     },
     {
@@ -165,7 +165,7 @@
       "nombre": "Piso crema Marfil",
       "tamaño": "60x60",
       "color": "Claro",
-      "rendimiento": "1.44",
+      "rendimiento": 1.44,
       "imagen": "",
     },
     {
@@ -173,7 +173,7 @@
       "nombre": "Piso Tundra",
       "tamaño": "40x60",
       "color": "Thunder gray",
-      "rendimiento": "1.44",
+      "rendimiento": 1.44,
       "imagen": "",
     },
     {
@@ -181,7 +181,7 @@
       "nombre": "Piso Starlyn",
       "tamaño": "44x89",
       "color": "White",
-      "rendimiento": "1.17",
+      "rendimiento": 1.17,
       "imagen": "",
     }]
 }
