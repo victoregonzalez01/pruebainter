@@ -195,4 +195,73 @@ document.addEventListener('DOMContentLoaded', () => {
             mostrarResultados();
         }
     });
+    // Código para el recomendador de boquillas
+    const superficieSelect = document.getElementById('superficie');
+    const sep5Radio = document.getElementById('sep5');
+    const sep6Radio = document.getElementById('sep6');
+    const boquillaWarning = document.getElementById('boquillaWarning');
+    const boquillaResultados = document.getElementById('boquillaResultados');
+
+    function updateBoquillaOptions() {
+        const superficie = superficieSelect.value;
+
+        if (superficie === 'bañera') {
+            // Deshabilitar las opciones de 5mm y 6mm
+            sep5Radio.disabled = true;
+            sep6Radio.disabled = true;
+            boquillaWarning.style.display = 'flex';
+
+            // Si están seleccionadas, deseleccionar
+            if (sep5Radio.checked) {
+                sep5Radio.checked = false;
+            }
+            if (sep6Radio.checked) {
+                sep6Radio.checked = false;
+            }
+        } else {
+            // Habilitar las opciones
+            sep5Radio.disabled = false;
+            sep6Radio.disabled = false;
+            boquillaWarning.style.display = 'none';
+        }
+    }
+
+    superficieSelect.addEventListener('change', updateBoquillaOptions);
+
+    // Inicializar las opciones
+    updateBoquillaOptions();
+});
+
+// Actualizar la función mostrarResultados
+function mostrarResultados() {
+    // ... código existente ...
+
+    // Cálculo para la boquilla
+    const superficie = document.getElementById('superficie').value;
+    const separacion = parseFloat(document.querySelector('input[name="separacion"]:checked').value);
+    const metros = parseFloat(metrosInput);
+
+    // Calcular sacos de boquilla (metros / 14)
+    const sacosBoquilla = Math.ceil(metros / 14);
+
+    // Determinar el tipo de boquilla
+    let tipoBoquilla = '';
+    let boquillaClass = '';
+
+    if (superficie === 'bañera') {
+        tipoBoquilla = 'SIN ARENA (Bañera)';
+    } else if (separacion >= 1.2 && separacion <= 3) {
+        tipoBoquilla = 'SIN ARENA (Separación 1.2-3mm)';
+    } else if (separacion > 3) {
+        tipoBoquilla = 'CON ARENA (Separación >3mm)';
+        boquillaClass = 'with-sand';
+    }
+
+    // Mostrar resultados de boquilla
+    document.getElementById('tipoBoquilla').textContent = tipoBoquilla;
+    document.getElementById('sacosBoquilla').textContent = sacosBoquilla;
+    document.getElementById('calculoBoquilla').textContent = `${metros} m² ÷ 14 = ${sacosBoquilla} sacos`;
+
+    boquillaResultados.className = 'boquilla-results ' + boquillaClass;
+    boquillaResultados.style.display = 'block';
 });
