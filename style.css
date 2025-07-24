@@ -404,4 +404,68 @@ footer {
     .features {
         grid-template-columns: 1fr;
     }
+
+/* Agregar al final del archivo */
+.boquilla-results {
+    background-color: #e8f4ff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    border-left: 5px solid #1a2a6c;
+}
+
+.boquilla-results.with-sand {
+    background-color: #fff3e6;
+    border-left: 5px solid #fdbb2d;
+}
+
+.boquilla-header h4 {
+    color: #1a2a6c;
+    font-weight: 700;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #ccc;
+}
+
+.boquilla-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.boquilla-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.boquilla-item:last-child {
+    border-bottom: none;
+}
+
+.boquilla-item span:first-child {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.boquilla-results.with-sand .boquilla-header h4 {
+    color: #b21f1f;
+}
+
+.radio-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+}
+
+.warning {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
 }
