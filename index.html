@@ -8,9 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    
+
 </head>
-<body style="background-color:red;">
+<body>
     <div class="container">
         <header>
             <div class="logo-container">
@@ -41,7 +41,47 @@
                                 <input type="number" class="form-control" id="metros" placeholder="Ingresa los metros cuadrados">
                                 <div class="form-text">Área total a cubrir</div>
                             </div>
+                            <!-- Agregar después del campo de metros cuadrados -->
+                            <div class="mb-4">
+                                <label for="superficie" class="form-label">Superficie a Instalar</label>
+                                <select class="form-control" id="superficie" required>
+                                    <option value="" disabled selected>Seleccione una superficie</option>
+                                    <option value="piso">Piso</option>
+                                    <option value="muro">Muro</option>
+                                    <option value="fachada">Fachada</option>
+                                    <option value="bañera">Bañera</option>
+                                </select>
+                            </div>
 
+                            <div class="mb-4">
+                                <label class="form-label">Separación entre piezas</label>
+                                <div class="radio-group d-flex flex-wrap gap-3">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="separacion" id="sep1.2" value="1.2" required>
+                                        <label class="form-check-label" for="sep1.2">1.2mm</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="separacion" id="sep1.5" value="1.5">
+                                        <label class="form-check-label" for="sep1.5">1.5mm</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="separacion" id="sep3" value="3">
+                                        <label class="form-check-label" for="sep3">3mm</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="separacion" id="sep5" value="5">
+                                        <label class="form-check-label" for="sep5">5mm</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="separacion" id="sep6" value="6">
+                                        <label class="form-check-label" for="sep6">6mm</label>
+                                    </div>
+                                </div>
+                                <div id="boquillaWarning" class="warning mt-2" style="display: none; color: #dc3545;">
+                                    <i class="fas fa-exclamation-triangle me-2"></i>
+                                    <span>Para bañeras, las separaciones de 5mm y 6mm no están disponibles</span>
+                                </div>
+                            </div>
                             <button type="button" class="btn btn-calculate" id="calculateBtn">
                                 <i class="fas fa-calculator me-2"></i>CALCULAR MATERIALES
                             </button>
@@ -60,7 +100,26 @@
                     <div class="result-container" id="resultados">
                         <!-- Aquí se mostrarán los resultados -->
                     </div>
-
+                    <!-- Nueva sección para resultados de boquilla -->
+                       <div class="result-container" id="boquillaResultados" style="display: none;">
+                           <div class="boquilla-header">
+                               <h4><i class="fas fa-tools me-2"></i>RECOMENDACIÓN DE BOQUILLA</h4>
+                           </div>
+                           <div class="boquilla-content">
+                               <div class="boquilla-item">
+                                   <span>Tipo de boquilla:</span>
+                                   <span id="tipoBoquilla"></span>
+                               </div>
+                               <div class="boquilla-item">
+                                   <span>Sacos necesarios:</span>
+                                   <span id="sacosBoquilla"></span>
+                               </div>
+                               <div class="boquilla-item">
+                                   <span>Cálculo:</span>
+                                   <span id="calculoBoquilla"></span>
+                               </div>
+                           </div>
+                       </div>
                     <div class="error-message" id="errorMessage">
                         <!-- Mensajes de error -->
                     </div>
